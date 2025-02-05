@@ -32,6 +32,14 @@ ex 2:
 This call will find the file TRUMPETSTENCIL.stl and the use superslicer to get the gcode.
 
 
+## Specifications
+Adding options from the links above
+
+./superslicer -g /home/marius/Documents/MATRIX/test_files/TRUMPETSTENCIL.stl --layer-height 0.2
+
+adding layer height
+http://127.0.0.1:5000/fileOptions/TRUMPETSTENCIL.stl/--layer-height%200.2
+
 ### Future work
 - Add error handling
 - Testing with more parameters
