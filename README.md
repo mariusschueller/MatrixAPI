@@ -37,7 +37,7 @@ Adding options from the links above
 
 ./superslicer -g /home/marius/Documents/MATRIX/test_files/TRUMPETSTENCIL.stl --layer-height 0.2
 
-adding layer height
+adding layer height 0.2
 http://127.0.0.1:5000/fileOptions/TRUMPETSTENCIL.stl/--layer-height%200.2
 
 ### Future work
@@ -47,4 +47,13 @@ http://127.0.0.1:5000/fileOptions/TRUMPETSTENCIL.stl/--layer-height%200.2
 
 <br>
 
-- Add a gcode visualization tool?
+# Add Orientation
+Using Tweaker Library which can be found here:
+https://github.com/ChristophSchranz/Tweaker-3
+
+
+```
+python Tweaker.py -i demo_object.stl -vb
+```
+
+

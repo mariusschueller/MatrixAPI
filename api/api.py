@@ -65,6 +65,27 @@ def fileAndOption(file, options):
     if not os.path.exists(file_path):
         return f"File {file} does not exist", 404
 
+
+    # Now we orient it
+    sub = [
+    "python3",
+    "/home/marius/Documents/MATRIX/Tweaker-3/Tweaker.py",
+    "-i",
+    file_path,
+    "-vb"
+    ]
+
+    print("Executing:", sub)
+    
+    result = subprocess.run(
+        sub,
+        capture_output=True,
+        text=True
+    )
+    file_path = file_path.replace(".stl", "_tweaked.stl")
+
+    # Now the file should be well oriented
+
     # Suppose options is "--layer-height 0.2"
     # Manually split it into a list:
     options_list = options.split()  
