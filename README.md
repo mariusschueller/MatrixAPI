@@ -40,6 +40,17 @@ Adding options from the links above
 adding layer height 0.2
 http://127.0.0.1:5000/fileOptions/TRUMPETSTENCIL.stl/--layer-height%200.2
 
+
+### Getting Dimensions
+Now we can use a new call.
+http://localhost:5000/size/TRUMPETSTENCIL.stl
+
+Then we could add scaling 
+scale by 0.5
+http://127.0.0.1:5000/fileOptions/TRUMPETSTENCIL.stl/--scale%200.5
+
+Note: we should use the tweaked file from then on after getting the size
+
 ### Future work
 - Add error handling
 - Testing with more parameters
