@@ -51,6 +51,12 @@ http://127.0.0.1:5000/fileOptions/TRUMPETSTENCIL.stl/--scale%200.5
 
 Note: we should use the tweaked file from then on after getting the size
 
+```
+<iframe src="http://localhost:8000" width="100%" height="600px"></iframe>
+```
+
+https://github.com/tonyb486/stlviewer?tab=readme-ov-file
+
 ### Future work
 - Add error handling
 - Testing with more parameters
