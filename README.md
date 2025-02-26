@@ -1,3 +1,5 @@
+This repository is no longer in use. Please go to https://github.com/mariusschueller/MATRIX
+
 # Using Superslicer’s CLI Tool
 Working G-code example with Superslicer:  
 Run this command in the terminal:
